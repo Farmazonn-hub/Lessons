@@ -3,11 +3,7 @@ second = int(input('Введите 2 число'))
 third = int(input('Введите 3 число'))
 if first == second and second == third:
      print(3)
-elif first == second or second == third:
-    print(2)
-elif first == second or first == third:
-    print(2)
-elif second == third or first == third:
+elif first == second or second == third or first == third:
     print(2)
 else:
     print(0)
